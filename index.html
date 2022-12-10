@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccioJob Sign Up Form | Weekly Contest 1 | Module 1</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="description" content="This is AccioJob Project from Frontend module 1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1>Signup</h1>
+    </header>
+    <main class="container">
+        <form action="#" autocomplete="off">
+            <label for="name">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+            </label>
+            <label for="password">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </label>
+            <label for="confirm-pass">
+                <input type="password" name="confirm-pass" id="confirm-pass" placeholder="Confirm Password" required>
+            </label>
+
+            <label for="birth-date">
+                <input type="date" name="date" id="birth-date" required>
+            </label>
+            <div class="radio">
+                <input type="radio" name="profession" id="student" required>
+                <label for="student" class="pointer">
+                    <div class="radio-circle"></div>
+                    Student
+                </label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="profession" id="employee" required>
+
+                <label for="employee" class="pointer">
+                    <div class="radio-circle"></div>
+                    Employee
+                </label>
+            </div>
+            <div class="checkbox">
+                <label for="t-and-c" class="pointer">
+                    <input type="checkbox" name="tc" id="t-and-c" required>
+                    <div class="checkbox-square"></div>
+                    I agree to all the Terms and conditions
+                </label>
+            </div>
+            
+            <button type="submit" class="pointer">Signup</button>
+        </form>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
